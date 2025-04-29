@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 80px;
+    background: rgb(0, 225, 255);
+    margin: 50px;
+    border-radius: 20px;
+  }
+  
+  .profile img {
+    padding: 20px;
+    width: 300px;
+    border-radius: 70%;
+    object-fit: cover;
+  }
+  
+  .content {
+    max-width: 600px;
+    margin-bottom: 30px;
+  }
+  
+  .heading {
+    margin-bottom: 20px;
+  }
+  
+  h1, h2, h3 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  h2 {
+    font-size: 50px;
+  }
+  
+  h1 {
+    font-size: 48px;
+  }
+  
+  .sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+  }
+  
+  .left, .right {
+    width: 45%;
+    text-align: left;
+  }
+  
+  .left ul, .right ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  .left li, .right li {
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .contact {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #777;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .sections {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .left, .right {
+      width: 80%;
+      text-align: center;
+    }
+  }
+  
